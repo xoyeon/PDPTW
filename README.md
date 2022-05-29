@@ -24,6 +24,9 @@ A time window is the period between a start and end time in which a network loca
   - multiple depots
   - multiple time windows
 
+## 🔗 주로 사용되는 알고리즘
+- 휴리스틱  기법(Heuristic techniques)
+- local search algorithm
 
 
 ---
