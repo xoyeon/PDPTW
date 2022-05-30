@@ -28,6 +28,38 @@ A time window is the period between a start and end time in which a network loca
 - 휴리스틱  기법(Heuristic techniques)
 - local search algorithm
 
+## Papers to read
+- Stefan Ropke and Jean-Franc¸ois Cordeau. Branch and cut and
+price for the pickup and delivery problem with time windows.
+Transportation Science, 43(3):267–286, 2009.
+- Yuichi Nagata and Shigenobu Kobayashi. Guided ejection
+search for the pickup and delivery problem with time windows.
+In European Conference on Evolutionary Computation in
+Combinatorial Optimization, pages 202–213, 2010.
+- Yuan Qu and Jonathan F Bard. A grasp with adaptive large
+neighborhood search for pickup and delivery problems with
+transshipment. Computers & Operations Research, 39(10):2439–
+2456, 2012.
+- Miroslaw Blocho and Jakub Nalepa. Lcs-based selective route
+exchange crossover for the pickup and delivery problem with
+time windows. In European Conference on Evolutionary
+Computation in Combinatorial Optimization, pages 124–140.
+Springer, 2017.
+
+	MULTI DEPOT
+- Pandhapon Sombuntham and Voratas Kachitvichayanukul. A
+particle swarm optimization algorithm for multi-depot vehicle
+routing problem with pickup and delivery requests. Lecture
+Notes in Engineering and Computer Science, 2182(1):965–972,
+2010
+
+- Essia Ben Alaa, Imen Harbaoui Dridi, Hanen Bouchriha,
+and Pierre Borne. Insertion of new depot locations for the
+optimization of multi-vehicles multi-depots pickup and delivery
+problems using genetic algorithm. In International Conference
+on Industrial Engineering and Systems Management, pages 695–
+701, 2016.
+
 
 ---
 
