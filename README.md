@@ -12,7 +12,7 @@ A time window is the period between a start and end time in which a network loca
 - minimize the number of routes
 
 ## 🔗 고려사항
-- Dispatching
+- Dispatching : 배달원(C)을 기준으로 음식점(R)과 목적지(O)까지의 거리를 계산하고, C의 속도에 따라 t 내에 O까지 도달할 수 있는지?
   - 1) Order matching : aims to find the best matching strategy between workers and demands
     - unserved demands
 	- travel costs
@@ -20,7 +20,7 @@ A time window is the period between a start and end time in which a network loca
   - 2) Fleet management : repositions idling workers to balance the local demand-supply ratio
     - heterogeneous fleet
 	- flexible cargo size
-- Routing
+- Routing :
   - multiple depots
   - multiple time windows
 
