@@ -1,0 +1,7 @@
+# Food Pick up and Delivery Problem
+
+pdptw 문제도 종류가 여러가지.
+내가 지금까지 찾은 논문은 주로 물류창고(pickup) 등 한 지점에서 물건을 왕창 가져와서 여러 도착지로 배달(delivery)하는 형식
+
+반면에 내가 하고자하는 food는 multi-vehicle이며 미리 order를 알 수 없는 dynamic한 환경
+따라서, 나는 multi-vehicle Dynamic PDPTW와 관련된 논문을 봐야함
