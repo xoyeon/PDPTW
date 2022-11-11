@@ -1,44 +1,27 @@
 # 🚚 유전자 알고리즘을 이용한 음식 배달 최적화 기법
 Optimization with Genetic Algorithms for Food Delivery Dispatch
 
+## 🔗 데이터
+- [Grubhub](https://github.com/grubhub/mdrplib/tree/master/public_instances)
 
-<a href="https://confirmed-theater-e29.notion.site/Reading-List-48df9a2a6d614f648a64c4ca5e6054fe" target="_blank"><img src="https://img.shields.io/badge/Notion-ffffff?style=flat-square&logo=Notion&logoColor=black"/></a>
-
-
-- [What are time windows?](https://desktop.arcgis.com/en/arcmap/latest/extensions/network-analyst/time-windows.htm)   
-A time window is the period between a start and end time in which a network location, such as a stop in a route analysis, should be visited by a route.
+![grubhub](https://user-images.githubusercontent.com/85726134/174063306-efd16ddf-92e1-4507-936f-93dbca4e87a4.jpg)
 
 
-## 🔗 목적
-- Vehicle minimization
-- Distance minimization
-- minimize the number of routes
+## 🔗 제안하는 알고리즘
+- [Genetic Algorithm](https://github.com/ahmedfgad/GeneticAlgorithmPython)
 
-## 🔗 고려사항
-- Dispatching : 배달원(C)을 기준으로 음식점(R)과 목적지(O)까지의 거리를 계산하고, C의 속도에 따라 t 내에 O까지 도달할 수 있는지?
-  - 1) Order matching : aims to find the best matching strategy between workers and demands
-    - unserved demands
-	- travel costs
-	- worker availability (평균적으로 3건~5건)
-  - 2) Fleet management : repositions idling workers to balance the local demand-supply ratio
-    - heterogeneous fleet
-	- flexible cargo size
-- Routing :
-  - multiple depots
-  - multiple time windows
-
-## 🔗 주로 사용되는 알고리즘
-- 휴리스틱  기법(Heuristic techniques)
-- local search algorithm
-
-## Papers to read
+![image](https://user-images.githubusercontent.com/85726134/201260028-adf0a1b4-b849-4ef2-8ca0-bda555363190.png){: width="100%" height="100%"}
 
 
----
+![image](https://user-images.githubusercontent.com/85726134/201259062-3cc6731e-721b-409a-a19f-a4236c49e290.png)
 
-- [Google OR-Tools](https://developers.google.com/optimization/routing/pickup_delivery#python_1)
-- [Li & Lim benchmark](https://www.sintef.no/projectweb/top/pdptw/li-lim-benchmark/)
-- Instances for the Pickup and Delivery Problem with Time Windows based on open data
-  - [article](https://www.sciencedirect.com/science/article/abs/pii/S0305054820301829?via%3Dihub)/[data](https://data.mendeley.com/datasets/wr2ct4r22f/2)
-  
-  ![grubhub](https://user-images.githubusercontent.com/85726134/174063306-efd16ddf-92e1-4507-936f-93dbca4e87a4.jpg)
+## 🔗 연구결과
+- 인구수 500 / 세대수 1000 으로 설정하여 실험
+
+![image](https://user-images.githubusercontent.com/85726134/201261675-31177ad2-f24c-4d9c-96ce-5d4fcaf487ab.png)
+![image](https://user-images.githubusercontent.com/85726134/201259346-10df63e2-1941-48ed-8cbf-f7b0377b0483.png)
+![image](https://user-images.githubusercontent.com/85726134/201259355-a81d2efa-fd14-4022-bbf4-5e894af08920.png)
+
+## 🔗 결론
+![image](https://user-images.githubusercontent.com/85726134/201259528-b59172ee-42a8-4ab2-9f9e-c86a8d96aa58.png)
+
