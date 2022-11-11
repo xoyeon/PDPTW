@@ -10,9 +10,6 @@ Optimization with Genetic Algorithms for Food Delivery Dispatch
 ## 🔗 제안하는 알고리즘
 - [Genetic Algorithm](https://github.com/ahmedfgad/GeneticAlgorithmPython)
 
-![image](https://user-images.githubusercontent.com/85726134/201260028-adf0a1b4-b849-4ef2-8ca0-bda555363190.png){: width="100%" height="100%"}
-
-
 ![image](https://user-images.githubusercontent.com/85726134/201259062-3cc6731e-721b-409a-a19f-a4236c49e290.png)
 
 ## 🔗 연구결과
