@@ -50,9 +50,8 @@ class QLearningTable:
                 )
             )
             
-from maze_env import Maze
 from QLearningTable import QLearningTable
-
+from maze_env import Maze
 
 def update():
     for episode in range(100):

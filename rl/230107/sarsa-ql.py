@@ -1,6 +1,5 @@
 import numpy as np 
-import gym
-import env
+from env import Delivery
 
 
 def eps_greedy(Q, s, eps=0.1):
@@ -140,7 +139,7 @@ def SARSA(env, lr=0.01, num_episodes=10000, eps=0.3, gamma=0.95, eps_decay=0.000
 
 
 if __name__ == '__main__':
-    # env = gym.make('Taxi-v3')
+    env = Delivery()
     
     Q_qlearning = Q_learning(env, lr=.1, num_episodes=5000, eps=0.4, gamma=0.95, eps_decay=0.001)
 
